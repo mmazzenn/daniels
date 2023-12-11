@@ -1,0 +1,185 @@
+/* Start Global */
+
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .section-heading h2 {
+    font-size: 1.9rem;
+  }
+}
+
+/* End Global */
+
+/* Start Navbar */
+
+@media screen and (max-width: 768px) {
+  nav .navbar-collapse {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #FFF;
+    border-top: 1px solid rgba(12, 12, 12, 0.04)
+  }
+
+  nav .nav-item {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link.show,
+  nav .nav-link,
+  nav .nav-link:focus,
+  nav .nav-link:hover {
+    color: var(--primary-color);
+  }
+
+  nav .nav-link {
+    display: inline-block;
+  }
+
+  nav .nav-link::after {
+    background-color: var(--primary-color);
+    left: 0;
+  }
+
+  nav .nav-link.active::after {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav .navbar-collapse {
+    width: auto;
+    position: static;
+    background-color: transparent;
+  }
+
+  nav .nav-item {
+    margin-right: 1.5625rem;
+    text-align: left;
+  }
+
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link.show,
+  nav .nav-link,
+  nav .nav-link:focus,
+  nav .nav-link:hover {
+    color: #FFF;
+  }
+}
+
+/* End Navbar */
+
+/* Start Home */
+
+@media screen and (max-width: 767px) {
+  .home h3 {
+    font-size: 2.5rem;
+  }
+
+  :root {
+    --larry-width: 372.91px;
+    --text-width: 98.33px;
+    --dev-width: 317.53px;
+    --des-width: 294.46px;
+    --larry-width-2: 364.91px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .home h2 {
+    font-size: 1.875rem;
+  }
+
+  .home h3 {
+    font-size: 1.5rem;
+  }
+
+  :root {
+    --larry-width: 227.75px;
+    --text-width: 57.4px;
+    --dev-width: 194.53px;
+    --des-width: 180.68px;
+    --larry-width-2: 218.75px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  :root {
+    --larry-width: 146.11px;
+    --text-width: 35.38px;
+    --dev-width: 125.33px;
+    --des-width: 116.68px;
+    --larry-width-2: 138.11px;
+  }
+}
+
+/* End Home */
+
+/* Start About */
+
+@media screen and (min-width: 1400px) {
+  .about .about-content>p {
+    max-width: 99%;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .about .btns {
+    gap: 1.25rem !important;
+  }
+}
+
+/* End About */
+
+/* Start Portfolio */
+
+@media screen and (max-width: 370px) {
+  .portfolio .nav-link {
+    font-size: .7625rem;
+  }
+}
+
+/* End Portfolio */
+
+/* Start Testimonials */
+
+@media screen and (min-width: 992px) {
+  .testimonials .testimonials-slider p {
+    max-width: 81%;
+  }
+}
+
+/* End Testimonials */
+
+/* Start Team */
+
+@media screen and (max-width: 335px) {
+  .team .card h4 {
+    font-size: .8125rem;
+  }
+
+  .team .card h5 {
+    font-size: .9375rem;
+  }
+}
+
+/* End Team */
